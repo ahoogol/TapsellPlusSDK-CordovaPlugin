@@ -1,0 +1,17 @@
+{
+  "name": "tapsell-plus-cordova-plugin",
+  "version": "1.0.0",
+  "description": "Tapsell Plus Cordova Plugin",
+  "cordova": {
+    "id": "tapsell-plus-cordova-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "ahoogol@gmail.com",
+  "license": "Apache 2.0"
+}
