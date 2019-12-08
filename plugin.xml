@@ -11,7 +11,9 @@
         <param name="android-package" value="ir.tapsell.sdk.TapsellPlusCordovaInterface"/>
       </feature>
     </config-file>
-    <config-file parent="/*" target="AndroidManifest.xml"/>
+    <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
+      <application android:name="android.support.multidex.MultiDexApplication" />
+    </edit-config>
     <source-file src="src/android/TapsellPlusCordovaInterface.java" target-dir="src/ir/tapsell/sdk"/>
   </platform>
 </plugin>
